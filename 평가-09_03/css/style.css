@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding:30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    z-index: 900;
+}
+
+.logo img{
+    width: 125px;
+    height: 35px;
+}
+
+.headmenu{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    flex-direction: column;
+}
+
+.menuline{
+    width: 0;
+    height: 3px;
+    background-color: white;
+    margin-top: 10px;
+    bottom:0;
+    left: 0;
+    transition-duration: 0.5s;
+}
+
+.menu:hover .menuline:nth-child(1){
+    width: 100%;
+}
+
+.menu:hover .menuline:nth-child(2){
+    width: 100%;
+}
+
+.menu:hover .menuline:nth-child(3){
+    width: 100%;
+}
+
+.menu:hover .menuline:nth-child(4){
+    width: 100%;
+}
+
+.menu:hover .menuline:nth-child(5){
+    width: 100%;
+}
+
+.menu:hover .menuline:nth-child(6){
+    width: 100%;
+}
+
+/* header end */
+
+.section_1{
+    width: 100%;
+    height: 960px;
+    background-image: url(https://blob.wifidosirak.com/wm-d01/tong/images/main_visual_4.jpg);
+}
+
+.sec1_titlewrap{
+    color: white;
+    padding: 300px 220px;
+}
+
+.sec1_title1{
+    font-size: 80px;
+    font-family:"Noto Sans KR", system-ui;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+.sec1_title2{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.more{
+    margin-top: 50px;
+    width: 240px;
+    height: 70px;
+    font-size: 18px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow{
+    margin-left: 20px;
+}
+
+/* section1 end  */
+
+.sec2_maintxt{
+    margin-top: 150px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+strong{
+    color:rgb(14, 64, 226);
+    font-weight: 900;
+    font-family:"Noto Sans KR", system-ui;
+}
+
+.boxwrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin:30px 0;
+}
+
+.sec2_box1{
+    width: 700px;
+    height: 680px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.section_2 img{
+    transition-duration: 0.5s;
+}
+
+.sec2_box1 img:hover{
+    transform: scale(1.1);
+}
+
+.sec2_box2{
+    width: 700px;
+    height: 330px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.sec2_box2 img{
+    transition-duration: 0.5s;
+}
+
+.sec2_box2 img:hover{
+    transform: scale(1.1);
+}
+
+.sec2_box3{
+    width: 700px;
+    height: 330px;
+    overflow: hidden;
+}
+
+.sec2_box3 img{
+    transition-duration: 0.5s;
+}
+
+.sec2_box3 img:hover{
+    transform: scale(1.1);
+}
+
+.sec2_box1{
+    position: relative;
+}
+
+.sec2_box2{
+    position: relative;
+}
+
+.sec2_box3{
+    position: relative;
+}
+
+.boxtitlewrap{
+    position: absolute;
+    top:30%;
+    left: 0;
+    color:white;
+    padding: 350px 50px;
+}
+
+.boxwrap2 .boxtitlewrap{
+    padding: 100px 50px;
+}
+
+.boxtitle{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Noto Sans KR", system-ui;
+    margin-bottom: 30px;
+}

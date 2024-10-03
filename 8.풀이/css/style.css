@@ -1,0 +1,199 @@
+header{
+    width: 100%;
+    padding: 25px 30px;
+    display:flex ;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    transition-duration: 0.5s;
+}
+
+header a{
+    color: #4e5059;
+}
+
+.menu_wrap{
+    display: flex;
+}
+
+.menu_wrap li{
+    margin-right: 20px;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.side_menu{
+    display: flex;
+}
+
+.side_menu li{
+    margin-right: 30px;
+}
+
+header:hover{
+    background-color: rgba(240, 236, 231, 0.8);
+}
+
+header:hover .logo{
+    opacity: 1;
+}
+
+.comment_ani{
+    position: relative;
+}
+
+.comment .text{
+    width: 120px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: teal;
+}
+
+.comment{
+    position: absolute;
+    top:35px;
+    left:-37px;
+    background-color: lightgray;
+    animation: comment_ani 1s infinite alternate;
+}
+
+@keyframes comment_ani{
+
+    0%{
+        top:35px;
+    }
+
+    100%{
+        top:40px;
+    }
+    
+}
+
+.top{
+    width: 8px;
+    height: 8px;
+    background-color: lightblue;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%) rotateZ(45deg);
+    top:-4px;
+}
+
+/* header end */
+
+.sec_1{
+    padding: 250px 200px;
+    height: 970px;
+    background: url(https://9wishes.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/fec66273ed5d77d3a9a2c371c387b2ae.jpg) no-repeat center / cover;
+}
+
+.sec_1 h4{
+    color: lightskyblue;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.sec_1 p{
+    font-size: 26px;
+    color:#333;
+    margin: 20px 0 30px 0;
+}
+
+.sec_1 h3{
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.sec_2{
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_2 a{
+    color:#333;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.con_2{
+    width: 10%;
+}
+
+.con_img_2{
+    height: 120px;
+    background-color: #dbdbdb;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.con_img_2 img{
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.con_2:hover img{
+    opacity: 1;
+}
+
+.con_2 h3{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.con_2:nth-child(3) .con_img_2{
+    background: url(https://9wishes.co.kr/wib/img/web/main/cate01.png) no-repeat/center cover;
+}
+
+.con_2:nth-child(4) .con_img_2{
+    background: url(https://9wishes.co.kr/wib/img/web/main/cate01.png) no-repeat/center cover;
+}
+
+.con_2:nth-child(5) .con_img_2{
+    background: url(https://9wishes.co.kr/wib/img/web/main/cate01.png) no-repeat/center cover;
+}
+
+.con_2:nth-child(6) .con_img_2{
+    background: url(https://9wishes.co.kr/wib/img/web/main/cate01.png) no-repeat/center cover;
+}
+
+.con_2:nth-child(7) .con_img_2{
+    background: url(https://9wishes.co.kr/wib/img/web/main/cate01.png) no-repeat/center cover;
+}
+
+.con_2:nth-child(8) .con_img_2{
+    background: url(https://9wishes.co.kr/wib/img/web/main/cate01.png) no-repeat/center cover;
+}
+
+.sec_3{
+    padding-left: 200px;
+    padding-right: 200px;
+    }
+
+.title_3{
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.con_wrap_3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .pc{
+            width: 1400px;
+            height: 300px;
+            border: 5px solid cyan;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .tab{
+            width: 1200px;
+            height: 300px;
+            border: 5px solid blue;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .mo{
+            width: 768px;
+            height: 300px;
+            border: 5px solid lightseagreen;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 1400px){
+            .pc{
+                width: 80%;
+                background-color: cyan;
+            }
+
+            .tab{
+                width: 60%;
+            }
+        }
+
+        @media screen and (max-width: 768px){
+            .mo{
+                width: 30%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- *반응형
+    =>디바이스 크기가 변화되면, 웹이나 앱의 크기가
+    무너짐 없이 기획한 의도대로 표현되는 디자인
+    =>css에서 작업하는 것이 일반적 
+    
+    *기기별 사이즈(px)
+    =>pc: 1920 ~ 1400
+    =>태블릿: 1399 ~ 768
+    =>핸드폰: 767 ~ 340 -->
+    
+    <!-- *viewport: 보여지는 화면 크기에 맞춰서 자동으로 세팅  -->
+
+    <!-- *미디어 쿼리
+    =>브라우저 크기에 따라 엘리먼트 크기를 변경할 수 있음
+    =>반응형 작업시 사용됨
+    =>max-width: 최대 허용 가로값
+    =>min-width: 최소 허용 가로값
+    =>max-height: 최대 허용 세로값
+    =>min-height: 최소 허용 세로값 -->
+
+    <div class="pc">PC SIZE</div>
+    <div class="tab">TAB SIZE</div>
+    <div class="mo">MO SIZE</div>
+
+</body>
+</html>

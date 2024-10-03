@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .wrap{
+            width: 500px;
+            height: 700px;
+            border: 2px solid lightgray;
+            border-radius: 40px;
+            margin:100px 35%;
+        }
+
+        .log_txt{
+            font-size: 80px;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        form{
+            margin: 50px;
+        }
+
+
+        .login input{
+            /* all:unset; 
+            =>태그의 속성을 전부 없에줌
+            =>반드시 제일 위에 적을 것!*/
+            width: 400px;
+            height: 50px;
+            border: 1px solid gray;
+            border-radius: 50px;
+            float: left;
+            margin-top: 10px;
+            padding-left: 15px;
+            box-sizing: border-box;
+        }
+
+        button{
+            width: 400px;
+            height: 50px;
+            margin: 50px;
+            border: 1px solid blue;
+            background-color: blue;
+            border-radius: 300px;
+            font-size: 25px;
+            font-family: "돋움";
+            line-height: 50px;
+            font-weight: 100;
+            color:white
+        }
+
+        button:hover{
+            background-color: white;
+            color:blue
+        }
+
+        .text{
+            text-align: center;
+        }
+
+        strong{
+            color: blue;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="login">
+            <div class="log_txt">
+                LOGIN
+            </div>
+            
+            <form>
+                <input type="text_1" placeholder="ID">
+                <input type="text_2" placeholder="PASSWORD">
+                <!-- =>class 넣는 것 가능 ex)):input class="" type="" placeholder"" -->
+            </form>
+        </div>
+
+        <a href="https://naver.com" target="_blank"> 
+            <button>로그인</button>
+        </a>
+
+        <div class="text">
+            아이디가 없으신가요?<strong>회원가입</strong>
+        </div>
+    </div>
+    
+</body>
+</html>

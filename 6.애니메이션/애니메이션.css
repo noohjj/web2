@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: darkcyan;
+    animation-name: box_ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box_ani{
+    from{
+        transform: translate(0) rotate(0deg);
+    }
+    50%{
+        background-color: blue;
+        transform: translate(0) rotate(360deg);
+    }
+
+    62%{
+        border-radius: 400px;
+    }
+    to{
+        transform: translate(300px, 300px);
+    }
+}

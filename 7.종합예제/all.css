@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all_wrap{
+    width: 100%;
+}
+
+.heads{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 900;
+    transition-duration: 1s;
+}
+
+.heads:hover{
+    background-color: wheat;
+}
+
+
+
+.hdmenu{
+    float: left;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    list-style: none;
+}
+
+.hdmenu li{
+    float: left;
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.hdlogo{
+    position: absolute;
+    top:25px;
+    left:50%;
+    margin-left: -50px;
+}
+
+.hdicon{
+    width: 200px;
+    height: 100%;
+    float: right;
+}
+
+.hdicon img{
+    float: left;
+    margin: 30px 10px;
+}
+
+.sec_1{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.sec_1 img{
+    width: 100%;
+    position: absolute;
+}
+
+.bn_wrap{
+    position: absolute;
+    font-family: "고딕체";
+    top:300px;
+    left:10%;
+}
+
+.bn_ttl{
+    font-size: 20px;
+    font-weight: 900;
+    color:cornflowerblue;
+}
+
+.bn_text1{
+    font-size: 25px;
+    color:gray;
+}
+
+.bntxt2{
+    font-size: 50px;
+    font-weight: 500;
+    margin:10px 0;
+}
+
+strong{
+    font-weight: 900;
+}
+
+.sec_2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.box_wrap{
+    width:70%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 100px;
+}
+.box{
+    width: 130px;
+    height: 130px;
+    background-color: lightgray;
+    border-radius: 50px;
+    display: flex; 
+    text-align: center;
+    line-height: 130px;
+    font-size: 20px;  
+}

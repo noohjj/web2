@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-image: url(https://imgnews.pstatic.net/image/003/2024/08/13/NISI20240813_0001397257_web_20240813131622_20240813135318709.jpg?type=w647);
+    margin: 50px;
+    font-size: 50px;
+    font-weight: 900;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.box:hover{
+    transform:scale(1.1);
+}

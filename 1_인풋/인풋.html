@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- *form 태그의 method
+    =>get: 유저가 입력한 값이 오픈되도 상관 없을 때(검색)
+    =>post: 유저의 정보를 숨길 때(로그인) -->
+
+    <form>
+        <input type="text" placeholder="네이버를 검색해 보세요">
+        <input type="button" value="검색">
+        <br>
+        <br>
+        <input type="checkbox" id="check_1"> 
+        <!-- 반드시 id를 넣을 것! -->
+        <label for="check_1">선택1</label>
+
+        <input type="checkbox" id="check_2">
+        <label for="check_2">선택2</label>
+        <!-- =>체크 박스 생성
+        =>글자를 클릭해도 체크가 되게 만들 땐 반드시 id 선택자 지정하고
+        label태그에 for 속성으로 연결시키기 -->
+        <br>
+        <br>
+
+        <input type="radio" id="tab_1" name="tab">
+        <label for="tab_1">선택1</label>
+        <input type="radio" id="tab_2" name="tab"> 
+        <label for="tab_2">선택2</label>
+        <!-- =>radio값은 단독으로 선택할 때 사용
+        =>name값을 이용하여 같은 radio값인지 인식할 때 사용 -->
+        <br>
+        <br>
+
+        <button>버튼 태그</button>
+        <input type="submit">
+        <input type="color">
+        <input type="time">
+        <input type="week">
+        <br>
+        <br>
+        <input type="password">
+        <input type="range">
+
+    </form>
+    
+</body>
+</html>

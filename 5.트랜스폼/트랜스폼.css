@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *트랜스폼
+=>translate: 위치조절
+=>scale: 크기조절
+=>rotate: 회전
+=>skew: 비틀기(기울기) */
+
+.box{
+    width: 600px;
+    height: 600px;
+    background-color: cadetblue;
+    /* transform: translate(100px,50px);
+    =>x,y축을 동시에 적용하고 싶을 땐 콤마로 구분하여 x,y순서대로 작성 */
+    /* transform: scale(2);
+    =>배율로 값을 지정함 1이 본래 크기 배율 */
+
+    /* transform: rotateZ(45deg);
+    =>각도의 단위는 deg */
+
+    /* transform: skewy(45deg); */
+}

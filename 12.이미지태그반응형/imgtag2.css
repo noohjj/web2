@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.con{
+    width: 50%;
+    /* background-color: lightgray; */
+}
+
+.img_wrap{
+    overflow: hidden;
+    height: 600px;
+    /* background-color: cadetblue; */
+}
+
+@media screen and (max-width: 1600px) {
+    .img_wrap{
+        height: 500px;
+    }    
+}
+
+.con img{
+    width: 100%;
+}
+
+.con h3{
+    font-size: 28px;
+    font-weight: 900;
+    margin: 15px 0 5px 0;
+}
+
+.con p{
+    opacity: 0.7;
+}
+
+.con:hover img{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}

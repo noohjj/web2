@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .con_wrap{
+            width: 500px;
+            height: 500px;
+            border:5px solid black;
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            justify-content: space-between;
+
+            /* =>justify-content- 
+            flex-start:왼쪽, 
+            flex-end:오른쪽, 
+            center:중앙
+            space-between:간격(동등한 값으로!) 
+            space-evenly:간격(첫번째~마지막 자식들까지 다 같은 간격)*/
+        }
+
+        .con_box{
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            font-size: 30px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="con_wrap">
+        <div class="con_box">1</div>
+        <div class="con_box">2</div>
+        <div class="con_box">3</div>
+        <div class="con_box">4</div>
+    </div>
+    
+</body>
+</html>
